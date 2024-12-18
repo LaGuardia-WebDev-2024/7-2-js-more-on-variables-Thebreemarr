@@ -24,9 +24,32 @@ void draw(){
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+  //black of eye
+  fill(0,0,0)
+  ellipse(x-50,y-50,20,25)
+  ellipse(x+50, y-50,20,25)
+  
+  //mouth
+  fill(200,0,0)
+  ellipse(x,y+12,160,50)
+  
+  //body
+  fill(30, 204, 91)
+  ellipse(x,y+140,140,200)
+  
+  //legs
+  fill(30, 204, 91)
+  ellipse(x-20,y+245,20,100)
+  ellipse(x+20,y+245,20,100)
+  
+  //arms
+  fill(30, 204, 91)
+  ellipse(x,y+70,300,20)
 
+x=mouseX
+y=mouseY
+ 
 }
-
 
 
 //🟡Extra FUN Features Ms. Hall Added
